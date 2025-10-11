@@ -6,7 +6,7 @@ export default function App() {
   const [ticketInfo, setTicketInfo] = useState({});
   const fetchTicketInfo = async () => {
     const response = await fetch(
-      `http://localhost:3000/ticket?domain=${domain}`
+      `https://event-ticket-app-backend.onrender.com/ticket?domain=${domain}`
     );
     const data = await response.json();
     setTicketInfo(data);
