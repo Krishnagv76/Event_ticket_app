@@ -32,7 +32,7 @@ export const Ticket = (props) => {
               }}
               className="text-sm"
             >
-              An AI launch event <strong>accelerate.builder.io</strong>
+              An AI launch event <strong>{`accelerate.${companyName}`}</strong>
             </span>
           </div>
           <div
